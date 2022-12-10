@@ -28,7 +28,7 @@
 
 </header>
 <main role="main" class="container-fluid">
-	<div id="verses">       </div>
+	<div id="bibleVerses"></div>
 	<div class="accordion accordion-flush" id="accordionFlushExample">
 		<div class="accordion-item">
 			<h2 class="accordion-header" id="flush-headingOne">
@@ -74,9 +74,9 @@
 <script>
 	$(document).ready(function(){
 		$.getJSON("./verses.json", function(data){
-			document.getElementById("verses").innerHTML = JSON.stringify(data, null, 4);
+			document.getElementById("bibleVerses").innerHTML = JSON.stringify(data, null, 4);
 			// $('#verses').html(data);
-			console.log(data); // Prints: Harry
+			// console.log(data); // Prints: Harry
 		}).fail(function(){
 			console.log("An error has occurred.");
 		});
