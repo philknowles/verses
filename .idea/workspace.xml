@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec4196e-be32-4bc0-8e41-1f5443b9796c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verses.json" beforeDir="false" afterPath="$PROJECT_DIR$/verses.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +35,29 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4525">
+              <caret line="286" selection-start-line="286" selection-end-line="286" />
+              <folding>
+                <element signature="e#6324#6330#0" expanded="true" />
+                <element signature="e#8275#8281#0" expanded="true" />
+                <element signature="e#8356#8362#0" expanded="true" />
+                <element signature="e#9880#9886#0" expanded="true" />
+                <element signature="e#9972#9978#0" expanded="true" />
+                <element signature="e#10055#10061#0" expanded="true" />
+                <element signature="e#10369#10375#0" expanded="true" />
+                <element signature="e#13591#13597#0" expanded="true" />
+                <element signature="e#13725#13731#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/verses.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="136">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -60,7 +77,13 @@
       <find>&lt;/form&gt;</find>
       <find>&lt;div class=&quot;accordion-body&quot;&gt;Placeholder content for this accordion, which is intended to demonstrate the &lt;code&gt;.accordion-flush&lt;/code&gt; class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.&lt;/div&gt;</find>
       <find>6</find>
+      <find>verse=</find>
+      <find>&quot;ref&quot;:</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;verse&quot;:</replace>
+      <replace>&quot;ref&quot;:&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,12 +153,12 @@
       <option name="presentableId" value="Default" />
       <updated>1670640084827</updated>
       <workItem from="1670640085943" duration="716000" />
-      <workItem from="1670642420545" duration="2021000" />
+      <workItem from="1670642420545" duration="3172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2737000" />
+    <option name="totallyTimeSpent" value="3888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
@@ -173,13 +196,28 @@
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/verses.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="136">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4525">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+          <folding>
+            <element signature="e#6324#6330#0" expanded="true" />
+            <element signature="e#8275#8281#0" expanded="true" />
+            <element signature="e#8356#8362#0" expanded="true" />
+            <element signature="e#9880#9886#0" expanded="true" />
+            <element signature="e#9972#9978#0" expanded="true" />
+            <element signature="e#10055#10061#0" expanded="true" />
+            <element signature="e#10369#10375#0" expanded="true" />
+            <element signature="e#13591#13597#0" expanded="true" />
+            <element signature="e#13725#13731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
