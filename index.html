@@ -41,7 +41,7 @@
 			$.each(data, function(key, value){
 				verse += '<div class="accordion-item">';
 				verse += '<h2 class="accordion-header" id="heading' + value.id + '">';
-				verse += '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse' + value.id + '" aria-expanded="true" aria-controls="collapse' + value.id + '">' + value.ref + '</button>';
+				verse += '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse' + value.id + '" aria-expanded="false" aria-controls="collapse' + value.id + '">' + value.ref + '</button>';
 				verse += '</h2>';
 				verse += '<div id="collapse' + value.id + '" class="accordion-collapse collapse show" aria-labelledby="heading' + value.id + '" data-bs-parent="#accordionExample"><div class="accordion-body">' + value.verse + '</div></div></div>';
 			});
