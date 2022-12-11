@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="564">
+              <caret line="89" lean-forward="true" selection-start-line="74" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -67,6 +67,7 @@
       <find>verse=</find>
       <find>&quot;ref&quot;:</find>
       <find>,</find>
+      <find>flush-headingThree</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;verse&quot;:</replace>
@@ -148,12 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1670640084827</updated>
       <workItem from="1670640085943" duration="716000" />
-      <workItem from="1670642420545" duration="9935000" />
+      <workItem from="1670642420545" duration="10202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10651000" />
+    <option name="totallyTimeSpent" value="10918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
@@ -205,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="564">
+          <caret line="89" lean-forward="true" selection-start-line="74" selection-end-line="89" />
         </state>
       </provider>
     </entry>
