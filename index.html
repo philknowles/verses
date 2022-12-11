@@ -77,12 +77,12 @@
 
 			$.each(data, function(key, value){
 				verse += '<div class="accordion-item">';
-				verse += '<h2 class="accordion-header" id="flush-headingThree">';
-				verse += '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">' + value.ref + '</button>';
+				verse += '<h2 class="accordion-header" id="headingOne">';
+				verse += '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">' + value.ref + '</button>';
 				verse += '</h2>';
-				verse += '<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample"><div class="accordion-body">' + value.verse + '</div></div></div>';
+				verse += '<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample"><div class="accordion-body">' + value.verse + '</div></div></div>';
 			});
-			$('#accordionFlushExample').append(verse);
+			$('#accordionExample').append(verse);
 			// document.getElementById("bibleVerses").innerHTML = JSON.stringify(data, null, 4);
 		}).fail(function(){
 			console.log("An error has occurred.");
