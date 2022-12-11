@@ -74,8 +74,13 @@
 <script>
 	$(document).ready(function(){
 		$.getJSON("./verses.json", function(data){
+			var verse = '';
+
+			$.each(data, function(key, value){
+				verse += 'p' + value.ref + '</p>';
+			});
+			$('#bibleVerses').append(verse);
 			// document.getElementById("bibleVerses").innerHTML = JSON.stringify(data, null, 4);
-			document.getElementById("bibleVerses").innerHTML = JSON.stringify(data).map(row => `<tr><td>$(row[0])</td>`).join("");
 		}).fail(function(){
 			console.log("An error has occurred.");
 		});
