@@ -30,29 +30,44 @@
 
 </header>
 <main role="main" class="container-fluid">
-	<div class="accordion" id="accordionExample"></div>
+<!--	<div class="accordion" id="accordionExample"></div>-->
+	<div id="app">
+		{{message}}
+	</div>
 </main>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/vue@next"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-	$(document).ready(function(){
-		$.getJSON("./verses.json", function(data){
-			var verse = '';
-
-			$.each(data, function(key, value){
-				verse += '<div class="accordion-item">';
-				verse += '<h2 class="accordion-header" id="heading' + value.id + '">';
-				verse += '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse' + value.id + '" aria-expanded="false" aria-controls="collapse' + value.id + '">' + value.ref + '</button>';
-				verse += '</h2>';
-				verse += '<div id="collapse' + value.id + '" class="accordion-collapse collapse" aria-labelledby="heading' + value.id + '" data-bs-parent="#accordionExample"><div class="accordion-body">' + value.verse + '</div></div></div>';
-			});
-			$('#accordionExample').append(verse);
-			// document.getElementById("bibleVerses").innerHTML = JSON.stringify(data, null, 4);
-		}).fail(function(){
-			console.log("An error has occurred.");
-		});
+<script type="module">
+	// $(document).ready(function(){
+	// 	$.getJSON("./verses.json", function(data){
+	// 		var verse = '';
+	//
+	// 		$.each(data, function(key, value){
+	// 			verse += '<div class="accordion-item">';
+	// 			verse += '<h2 class="accordion-header" id="heading' + value.id + '">';
+	// 			verse += '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse' + value.id + '" aria-expanded="false" aria-controls="collapse' + value.id + '">' + value.ref + '</button>';
+	// 			verse += '</h2>';
+	// 			verse += '<div id="collapse' + value.id + '" class="accordion-collapse collapse" aria-labelledby="heading' + value.id + '" data-bs-parent="#accordionExample"><div class="accordion-body">' + value.verse + '</div></div></div>';
+	// 		});
+	// 		$('#accordionExample').append(verse);
+	// 		// document.getElementById("bibleVerses").innerHTML = JSON.stringify(data, null, 4);
+	// 	}).fail(function(){
+	// 		console.log("An error has occurred.");
+	// 	});
+	// });
+	import verseData from './verses.json';
+	const app = Vue.createApp({
+		data(){
+			return {
+				message: 'Hello',
+				verses: ''
+			}
+		}
 	});
+
+	app.mount('#app');
 </script>
 </body>
 </html>
