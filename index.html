@@ -31,10 +31,18 @@
 </header>
 <main role="main" class="container-fluid">
 <!--	<div class="accordion" id="accordionExample"></div>-->
-	<div id="app">
 		{{message}}
+	<div class="accordion" id="app">
 		<div class="verses" v-for="verse in verses">
-			<p>{{verse.id}}. {{verse.ref}}: {{verse.verse}}</p>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="heading{{verse.id}}">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{verse.id}}" aria-expanded="false" aria-controls="collapse' + value.id + '">{{verse.ref}}</button>
+				</h2>
+				<div id="collapse{{verse.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{verse.id}}" data-bs-parent="#accordionExample">
+					<div class="accordion-body">{{verse.verse}}</div>
+				</div>
+			</div>
+			<!-- <p>{{verse.id}}. {{verse.ref}}: {{verse.verse}}</p> -->
 		</div>
 	</div>
 </main>
