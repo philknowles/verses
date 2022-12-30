@@ -32,7 +32,7 @@
 <main role="main" class="container-fluid">
 <!--	<div class="accordion" id="accordionExample"></div>-->
 	<div class="accordion" id="app">
-		<div class="verses" v-for="verse in verses">
+		<div class="verses m-3" v-for="verse in verses">
 			<div class="accordion-item">
 				<h2 class="accordion-header" :id="verse.id">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" :data-bs-target="'#collapse' + verse.id" aria-expanded="false" aria-controls="collapse">{{verse.ref}}</button>
