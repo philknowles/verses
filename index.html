@@ -32,12 +32,12 @@
 <main role="main" class="container-fluid">
 <!--	<div class="accordion" id="accordionExample"></div>-->
 	<div class="accordion" id="app">
-		<div class="verses" v-for="verse in verses">
+		<div class="verses" v-for="(index, verse) in verses">
 			<div class="accordion-item">
-				<h2 class="accordion-header" id="'heading">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">{{verse.ref}}</button>
+				<h2 class="accordion-header" :id="index.id">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" :data-bs-target="'#collapse' + index.id" aria-expanded="false" aria-controls="collapse">{{verse.ref}}</button>
 				</h2>
-				<div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionExample">
+				<div :id="'collapse' + index.id" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionExample">
 					<div class="accordion-body">{{verse.verse}}</div>
 				</div>
 			</div>
@@ -77,6 +77,11 @@
 				// verses: [
 				// 	{
 				// 		"id": 1,
+				// 		"ref":"Romans 8:37",
+				// 		"verse":"No in all these things we are more than conquerors through Him who loved us."
+				// 	},
+				// 	{
+				// 		"id": 2,
 				// 		"ref":"Romans 8:37",
 				// 		"verse":"No in all these things we are more than conquerors through Him who loved us."
 				// 	}
