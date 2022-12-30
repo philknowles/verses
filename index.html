@@ -33,6 +33,9 @@
 <!--	<div class="accordion" id="accordionExample"></div>-->
 	<div id="app">
 		{{message}}
+		<div class="verses" v-for="verse in verses">
+			<p>{{verse.id}}. {{verse.ref}}: {{verse.verse}}</p>
+		</div>
 	</div>
 </main>
 <script type="text/javascript" src="https://unpkg.com/vue@next"></script>
@@ -62,7 +65,7 @@
 		data(){
 			return {
 				message: 'Hello',
-				verses: ''
+				verses: verseData
 			}
 		}
 	});
