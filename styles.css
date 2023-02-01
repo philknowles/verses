@@ -5,7 +5,6 @@ body {
   }
 
 .accordion {
-    background-color: #16a085;
 }
 
 .accordion-header {
@@ -45,4 +44,5 @@ body {
 
 .accordion-button:hover, .accorion-button:active {
     background-color:#34495e;
+    color:#fff;
 }
