@@ -26,10 +26,11 @@ body {
     line-height: 1.5em;
 }
 
-.accordion-button, .verseRef {
-    background-color: #22313F;
+.accordion-button {
+    background-color: #3f5a73;
     border-bottom: 1px solid #2c3e50;
     color:#fff;
+    margin-left:13px;
 }
 .accordion-button:before {
     font-size: 1.5em;
@@ -41,8 +42,12 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-input[type="checkbox"] {
+.checkbox-container {
     margin:auto;
+    width:100%;
+    max-width:30px;
+}
+input[type="checkbox"] {
     width: .8em;
     height: .8em;
     /* color: #000;
