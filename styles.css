@@ -35,6 +35,7 @@ body {
     border-bottom: 1px solid #2c3e50;
     color:#fff;
     margin-left:13px;
+    border: color #3f3f3f;
 }
 .accordion-button:before {
     font-size: 1.5em;
