@@ -19,14 +19,18 @@ body {
     padding:0 0 0 15px;
 }
 
+.accordion-collapse {
+    background-color: #3f5a73;
+    border-left: 59px solid #22313F;
+}
 .accordion-body {
-    background-color: #1abc9c;
+    background-color: #3f5a73;
     color:#fafafa;
     font-size: 1em;
     line-height: 1.5em;
 }
 
-.accordion-button {
+.accordion-button, .accordion-button:active {
     background-color: #3f5a73;
     border-bottom: 1px solid #2c3e50;
     color:#fff;
