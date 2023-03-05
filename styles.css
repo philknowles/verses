@@ -15,8 +15,13 @@ body {
   }
 
 .accordion {
+    margin-top:10px;
 }
 
+.accordion-item {
+    border-left:5px solid #74ce77;
+    margin-bottom:10px;
+}
 .accordion-header {
     text-align: center;
     font-weight: 700;
@@ -24,7 +29,7 @@ body {
     text-decoration: none;
     color: #fff;
     -webkit-transition: background-color 0.5s ease-in-out;
-    background-color: #74CE77;
+    /* background-color: #74CE77; */
     /* border-bottom: 1px solid #1C202D; */
     padding:0 0 0 15px;
 }
