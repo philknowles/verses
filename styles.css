@@ -2,6 +2,16 @@
 
 body {
     font-family: 'Lato';
+    background-color:#CCF6DA;
+  }
+
+  .navbar {
+    background-color:#6EC461;
+    color:#fff;
+  }
+
+  .navbar a {
+    color:#fff;
   }
 
 .accordion {
@@ -14,30 +24,37 @@ body {
     text-decoration: none;
     color: #fff;
     -webkit-transition: background-color 0.5s ease-in-out;
-    background-color: #22313F;
-    border-bottom: 1px solid #2c3e50;
+    background-color: #74CE77;
+    /* border-bottom: 1px solid #1C202D; */
     padding:0 0 0 15px;
 }
 
 .accordion-collapse {
-    background-color: #3f5a73;
-    border-left: 59px solid #22313F;
+    /* background-color: #3f5a73; */
+    border-left: 59px solid #74CE77;
 }
 .accordion-body {
-    background-color: #3f5a73;
-    color:#fafafa;
+    /* background-color: #3f5a73; */
+    color:#1C202D;
     font-size: 1em;
     line-height: 1.5em;
 }
 
 .accordion-button, .accordion-button:active, .accordion-button:focus {
-    background-color: #3f5a73;
-    border-bottom: 1px solid #2c3e50;
-    color:#fff;
+    /* background-color: #3f5a73; */
+    /* border-bottom: 1px solid #2c3e50; */
+    color:#1C202D;
     margin-left:13px;
     border-color: #3f3f3f;
     box-shadow: 0 0 0 0;
 }
+
+.accordion-button:not(.collapsed) {
+    color: #1C202D;
+    background-color: #e2ffe3;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
 .accordion-button:before {
     font-size: 1.5em;
     line-height: 0.5em;
