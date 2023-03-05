@@ -37,6 +37,7 @@ body {
 .accordion-collapse {
     /* background-color: #3f5a73; */
     /* border-left: 59px solid #74CE77; */
+    margin-left:59px;
 }
 .accordion-body {
     /* background-color: #3f5a73; */
