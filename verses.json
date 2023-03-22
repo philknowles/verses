@@ -353,5 +353,35 @@
    "id": 72,
    "ref":"Luke 6:38",
    "verse":"Give, and it will be given unto you.  Good measure, pressed down, shaken together, running over, will be put into your lap.  For with the measure you use it will be measured back to you."
-  }
+  },
+  {
+   "id": 73,
+   "ref":"Proverbs 20:19",
+   "verse":"Whoever goes about slandering reveals secrerts, therefore do not associate with a simple babbler."
+   },
+   {
+   "id": 74,
+   "ref":"Proverbs 26:20-22",
+   "verse":"For lack of wood the fire goes out, and where there is no whisperer, quarreling ceases.  As charcoal to hot embers and wood to fire, so is a quarrelsome man for kindling strife."
+   },
+   {
+   "id": 75,
+   "ref":"Proverbs 22:24-25",
+   "verse":"Make no friendship with a man given to anger nor go with a wrathful man."
+   },
+   {
+   "id": 76,
+   "ref":"Proverbs 10:19",
+   "verse":"When words are many, transgression is not lacking, but whoever restrains his lips is prudent."
+   },
+   {
+   "id": 77,
+   "ref":"Proverbs 17:27-28",
+   "verse":"Whoever restrains his words has knowledge, and he who has a cool spirit is a man of understanding.  Even a fool who is silent is considered wise, when he closes his lips, he is deemed intelligent."
+   },
+   {
+   "id": 78,
+   "ref":"Proverbs 21:23",
+   "verse":"Whoever keeps his mouth and his tongue keeps himself out of trouble."
+   }
 ]
